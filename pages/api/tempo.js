@@ -1,6 +1,3 @@
-// import React from 'react'
-
-
 async function tempo(req, res) {
   const dynamicDate = await new Date()
   //controle de cache
