@@ -1,1 +1,6 @@
-# teste-next-vercel
+iniciar
+
+```bash
+yarn add next react react-dom
+
+```
