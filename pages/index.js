@@ -1,4 +1,6 @@
+import Link from 'next/link'
 import React, { ReactDOM, useState } from "react"
+
 
 function Contador() {
   const [contador, setcontador] = useState(1)
@@ -18,6 +20,12 @@ function Home() {
     <div>
       <h1>Home</h1>
       <Contador />
+      <h1>Pages</h1>
+      <Link href="/produtosComp/123">/produtosComp/123</Link> <br />
+      <Link href="/produtosNovo/123">/produtosNovo/1</Link>
+      <h1>API</h1>
+      <Link href="/api/tempo">/api/tempo</Link> <br />
+      <Link href="/api/produtosApi/123">/api/produtosApi/123</Link>
     </div>
   )
 }
