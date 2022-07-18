@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import React, { ReactDOM, useState } from "react"
-
+import React, { useState } from "react"
+import HelloTilwind from "../componets/HelloTilwind.tsx"
 
 function Contador() {
   const [contador, setcontador] = useState(1)
@@ -17,7 +17,8 @@ function Contador() {
 
 function Home() {
   return (
-    <div>
+    <div className='channel-bar shadow-lg'>
+      <HelloTilwind />
       <h1>Home</h1>
       <Contador />
       <h1>Pages</h1>
